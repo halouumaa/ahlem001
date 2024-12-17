@@ -9,16 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-@keyframes gradientBackground {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+
 }
 header {
     background-color: #421723;
@@ -44,11 +35,7 @@ header {
 .logo span {
     color: #da8d77; 
 }
-.nav-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -73,6 +60,16 @@ header {
 .homebg{
     animation: gradientBackground 10s infinite alternate;
 }
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 .hero {
     height: 100vh;
     display: flex;
